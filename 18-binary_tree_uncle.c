@@ -22,6 +22,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (parent == grandad->left && runcle == grandad->right)
 		return (runcle);
 	else if (parent == grandad->right && luncle == grandad->left)
-			return (luncle);
+		return (luncle);
 	return (NULL);
 }
